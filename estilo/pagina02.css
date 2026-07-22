@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android';
+    src: url('../fontes/idroid.otf')format(opentype);
+    font-weight: normal;
+}
+body{
+    background-color:rgb(149, 223, 160) ;
+
+}
+header{
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(69, 180, 106, 0.795), rgba(0, 0, 0, 0.623));
+    margin: -30px;
+    padding: 20px;
+    color: white;
+    text-shadow: 2px 2px 0px black;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px 7px rgb(50, 107, 54)
+}
+main{
+   text-align: center;
+   background-color: white;
+   height: 1000px;
+   width: 800px;
+   width: 50%;
+    border-radius: 6px;
+}
+div > h1{
+    text-align: center;
+    font-family: var(--fonte-android);
+    color:  rgb(0, 129, 0);
+    text-shadow: 1px 1px 0px black;
+    background-image: linear-gradient(to right, rgb(89, 161, 89), transparent);
+   
+}
+div > p, li, a{
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+main{
+    margin: auto;
+     min-width: 320px;
+   max-width: 1300px;
+}
+div p:hover{
+    text-decoration: underline;
+    color: green;
+}
+nav > a{
+    color: white;
+    padding: 10px;
+
+    border-radius: 6px ;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: rgb(172, 197, 135);
+    transition-duration: 1.2s;
+    width: 200px
+}
+img{
+    border-radius: 3px;
+}
+
